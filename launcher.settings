@@ -15,10 +15,10 @@
       <Value Profile="(Default)">Origins</Value>
     </Setting>
     <Setting Name="UserName" Type="System.String" Scope="User">
-      <Value Profile="(Default)">panasonic</Value>
+      <Value Profile="(Default)">UserName</Value>
     </Setting>
     <Setting Name="Password" Type="System.String" Scope="User">
-      <Value Profile="(Default)">unbreakab1e</Value>
+      <Value Profile="(Default)">Password</Value>
     </Setting>
     <Setting Name="Encode" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
