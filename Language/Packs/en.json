@@ -1,0 +1,28 @@
+{
+  "label": {
+    "username": "Username:",
+    "password": "Password:"
+  },
+  "button": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "play": "Play",
+    "browse": "Browse"
+  },
+  "form": {
+    "title": "Origins Game Launcher"
+  },
+  "text": {
+    "selectpath": "Please select the game folder."
+  },
+  "error": {
+    "gamenotfound": "The file game.dll was not found!",
+    "gamepath": "The path to game is invalid!",
+    "password": "Please enter a password!",
+    "nulllogin": "Please enter a username and password!",
+    "noip4": "No network adapters with an IPv4 address in the system!"
+  },
+  "word": {
+    "error": "Error"
+  }
+}

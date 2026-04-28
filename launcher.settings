@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Launcher.Settings" GeneratedClassName="launcher">
+  <Profiles />
+  <Settings>
+    <Setting Name="RemoteIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">76.234.105.233</Value>
+    </Setting>
+    <Setting Name="RemotePort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10300</Value>
+    </Setting>
+    <Setting Name="LocalPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10400</Value>
+    </Setting>
+    <Setting Name="RC4" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Origins</Value>
+    </Setting>
+    <Setting Name="UserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">panasonic</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">unbreakab1e</Value>
+    </Setting>
+    <Setting Name="Encode" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Profile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">42</Value>
+    </Setting>
+    <Setting Name="Directory" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">origins.dll</Value>
+    </Setting>
+    <Setting Name="SaveSettings" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ServerName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Origins</Value>
+    </Setting>
+    <Setting Name="UseConnect" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

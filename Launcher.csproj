@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ctxsignlib" Version="1.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="launcher.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>launcher.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="connect.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="launcher.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>launcher.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Launcher.Settings</CustomToolNamespace>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="CtxSignlib.Functions">
+      <Static>True</Static>
+    </Using>
+  </ItemGroup>
+
+</Project>
